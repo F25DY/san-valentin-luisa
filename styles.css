@@ -1,0 +1,114 @@
+:root{
+    --bg-pink: #ff6fb3;
+    --bg-magenta: #d05ff0;
+    --bg-purple: #7b45ff;
+    --bg-overlay1: rgba(255,111,179,0.18);
+    --bg-overlay2: rgba(123,69,255,0.14);
+    --text: #ffffff;
+}
+
+body{
+    margin:0;
+    font-family: "Manrope", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    color: var(--text);
+    overflow:hidden;
+    background:
+    radial-gradient(600px 400px at 10% 80%, var(--bg-overlay1) 0%, transparent 40%),
+    radial-gradient(500px 350px at 85% 15%, var(--bg-overlay2) 0%, transparent 35%),
+    linear-gradient(135deg, var(--bg-pink) 0%, var(--bg-magenta) 50%, var(--bg-purple) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.container1{
+    width: 550px;
+    height: 500px;
+    background: rgba(86, 74, 74, 0.374);
+    border: 2px solid #ffffff;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 35px 0 0 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 60px 20px 0 20px;
+}
+
+.Aceptación{
+    margin: 80px 5px 0 60px;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 65px;
+    display: inline-block;
+    background-color: #05ff058d;
+    color: black;
+    font-weight: 545;
+    border-color: #aaaa;
+    border-radius: 10%;
+    box-shadow: -10px 0 15px gray;
+}
+
+.Rechazo{
+    margin: 80px 5px 0 60px;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 65px;
+    display: inline-block;
+    background-color: #88838393;
+    color: black;
+    font-weight: 545;
+    border-color: #aaaa;
+    border-radius: 10%;
+    box-shadow: -10px 0 15px gray;
+}
+
+.footer1{
+    margin: 50px 10px 0 20px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.footer2{
+    margin: 50px 10px 0 5px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.Pie\ de\ página{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
